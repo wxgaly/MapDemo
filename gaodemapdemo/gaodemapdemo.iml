@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":BaiduMapDemo" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":gaodemapdemo" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":BaiduMapDemo" />
+        <option name="GRADLE_PROJECT_PATH" value=":gaodemapdemo" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -28,7 +28,7 @@
           <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
-          <option name="moduleName" value="BaiduMapDemo_debug" />
+          <option name="moduleName" value="gaodemapdemo_debug" />
           <option name="jvmTarget" value="1.8" />
           <option name="addCompilerBuiltIns" value="true" />
           <option name="loadBuiltInsFromDependencies" value="true" />
@@ -77,13 +77,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
@@ -91,6 +84,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -119,6 +119,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
@@ -153,17 +154,20 @@
     <orderEntry type="library" scope="TEST" name="com.android.support.test:runner-1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:rules-1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:E.\ViPlex_Code\gitcode\MapDemo\gaodemapdemo\libs\Android_Map3D_SDK_V6.0.1_20180309.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-idling-resource-3.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-core:1.3@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-26.1.0" level="project" />
+    <orderEntry type="library" name="com.amap.api:search:5.0.0@jar" level="project" />
+    <orderEntry type="library" name="com.amap.api:location:3.3.0@jar" level="project" />
     <orderEntry type="library" name="android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-library:1.3@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-26.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:E.\ViPlex_Code\gitcode\MapDemo\BaiduMapDemo\libs\BaiduLBS_Android.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="net.sf.kxml:kxml2:2.3.0@jar" level="project" />
     <orderEntry type="library" name="org.jetbrains:annotations:13.0@jar" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-26.1.0" level="project" />
     <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib:1.2.20@jar" level="project" />
+    <orderEntry type="library" name="com.amap.api:3dmap:5.0.0@jar" level="project" />
   </component>
 </module>

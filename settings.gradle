@@ -1,1 +1,1 @@
-include ':BaiduMapDemo'
+include ':BaiduMapDemo', ':gaodemapdemo'
