@@ -79,9 +79,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     //3D地图so及jar
-    implementation 'com.amap.api:3dmap:5.0.0'
+    implementation 'com.amap.api:3dmap:6.0.1'
     //定位功能
-    implementation 'com.amap.api:location:3.3.0'
+    implementation 'com.amap.api:location:3.8.0'
     //搜索功能
-    implementation 'com.amap.api:search:5.0.0'
+//    implementation 'com.amap.api:search:5.1.0'
 }
