@@ -53,10 +53,8 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name="com.amap.api.location.APSService"
-            android:enabled="true"
-            android:process=":remote"/>
+        <!--<service-->
+            <!--android:name="com.amap.api.location.APSService"/>-->
     </application>
 
 </manifest>
