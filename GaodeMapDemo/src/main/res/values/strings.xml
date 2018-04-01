@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GaodeMapDemo</string>
+    <string name="xian">西安</string>
+    <string name="yanta">雁塔区</string>
 </resources>

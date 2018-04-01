@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +8,59 @@
     <com.amap.api.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </com.amap.api.maps.MapView>
+        android:layout_height="match_parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/ib_location"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home_location_icon" />
+
+    <RelativeLayout
+        android:id="@+id/rl_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iv_marker"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="254dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mainslid_menu_title_new" />
+
+        <TextView
+            android:id="@+id/tv_marker_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="@string/xian"
+            android:textColor="@color/black"
+            android:textSize="@dimen/marker_text_size" />
+
+        <TextView
+            android:id="@+id/tv_marker_content"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_marker_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/yanta"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/marker_text_size" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_marker"
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/icon_location3" />
+
+
+</RelativeLayout>

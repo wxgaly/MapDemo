@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 26
 
@@ -83,5 +84,11 @@ dependencies {
     //定位功能
     implementation 'com.amap.api:location:3.8.0'
     //搜索功能
-//    implementation 'com.amap.api:search:5.1.0'
+    implementation 'com.amap.api:search:5.7.0'
+
+    implementation("com.github.hotchemi:permissionsdispatcher:${latest_version}") {
+        // if you don't use android.app.Fragment you can exclude support for them
+        exclude module: "support-v13"
+    }
+    kapt "com.github.hotchemi:permissionsdispatcher-processor:${latest_version}"
 }
